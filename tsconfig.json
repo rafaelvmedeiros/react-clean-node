@@ -9,6 +9,7 @@
       "esModuleInterop": true,
       "module": "esnext",
       "moduleResolution": "node",
+      "strictNullChecks": true,
       "jsx": "react",
       "rootDirs": ["src", "tests"],
       "baseUrl": "src",
@@ -22,3 +23,5 @@
     "include": ["src", "tests"],
     "exclude": ["tests/e2e/cypress"]
   }
+
+  
